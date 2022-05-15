@@ -1,0 +1,19 @@
+[package]
+name = "graphio_rs_extractor"
+version = "0.1.0"
+authors = ["Aidiakapi <aidiakapi@gmail.com>"]
+edition = "2018"
+
+[workspace]
+members = [
+    "data",
+]
+
+[dependencies]
+graphio_rs_data = { path = "data" }
+clap = "2.32.0"
+dirs = "1.0.4"
+itertools = "0.7.8"
+serde_json = "1.0.33"
+num-traits = "0.2.6"
+image = { version = "0.20.1", features = ["png"] }

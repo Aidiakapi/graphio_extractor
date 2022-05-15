@@ -1,0 +1,15 @@
+[package]
+name = "graphio_rs_data"
+version = "0.1.0"
+authors = ["Aidiakapi <aidiakapi@gmail.com>"]
+edition = "2018"
+
+[lib]
+
+[dependencies]
+num-bigint = { version = "0.2.1", features = ["std"] }
+num-rational = { version = "0.2.1", features = ["std", "bigint"] }
+string-interner = "0.7.0"
+serde = "1.0.80"
+serde_derive = "1.0.80"
+lazy_static = "1.2.0"
